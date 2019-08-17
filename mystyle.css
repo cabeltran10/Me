@@ -1,3 +1,10 @@
+
+@media (min-width: 992px) {
+  #txtNombre, .slidingVertical span {
+    font-size: 3vw;
+  }
+}
+
 html {
   background: url("imgs/bkgrnd.jpg") no-repeat center center fixed ;
   -webkit-background-size: cover;
@@ -40,8 +47,15 @@ body {
 #containerNombre .row{
   height:80%;
 }
+.slidingVertical{
+  width: 20%;
+}
 
 #txtNombre, .slidingVertical span {
  font-size: 6vw;
-color: white;
+ color: white;
+}
+
+#txtNombre {
+  padding-left: 22%
 }

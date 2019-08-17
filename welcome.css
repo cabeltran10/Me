@@ -10,6 +10,8 @@
   -ms-animation: topToBottom 10s linear infinite 0s;
   -webkit-animation: topToBottom 10s linear infinite 0s;
   opacity: 0;
+  width: 20%;
+  text-align: right;
   overflow: hidden;
   position: absolute;
 }
