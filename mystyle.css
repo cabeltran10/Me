@@ -69,8 +69,12 @@ body {
 #txtNombre {
   padding-left: 22%
 }
+#punto{
+  padding-left: 0;
+}
 
 #txtWelcome{
   padding-top: 2.5%;
   width: 95%;
 }
+
