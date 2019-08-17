@@ -34,6 +34,14 @@ body {
 
 #containerNombre{
   padding: 0px;
-  height: 100%
+  height: 100%;
 }
 
+#containerNombre .row{
+  height:80%;
+}
+
+#txtNombre, .slidingVertical span {
+ font-size: 6vw;
+color: white;
+}
