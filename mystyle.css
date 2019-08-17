@@ -1,7 +1,17 @@
-
-@media (min-width: 992px) {
+@media all and (min-width: 1501px) {
   #txtNombre, .slidingVertical span {
-    font-size: 3vw;
+    font-size: 100px;
+  }
+  #txtWelcome{
+    font-size: 60px;
+  }
+}
+@media all and (max-width: 1500px) {
+  #txtNombre, .slidingVertical span {
+    font-size: 6vw;
+  }
+  #txtWelcome{
+    font-size: 4vw;
   }
 }
 
@@ -44,7 +54,7 @@ body {
   height: 100%;
 }
 
-#containerNombre .row{
+#filaNombre{
   height:80%;
 }
 .slidingVertical{
@@ -52,10 +62,14 @@ body {
 }
 
 #txtNombre, .slidingVertical span {
- font-size: 6vw;
  color: white;
 }
 
 #txtNombre {
   padding-left: 22%
+}
+
+#txtWelcome{
+  padding-top: 2.5%;
+  width: 100%;
 }
