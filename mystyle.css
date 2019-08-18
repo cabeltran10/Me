@@ -41,7 +41,7 @@ body {
     font-size: 60px;
   }
 }
-@media all and (max-width: 1500px) {
+@media all and (max-width: 1500px)  {
   #txtNombre, .slidingVertical span {
     font-size: 6vw;
   }
@@ -80,11 +80,6 @@ body {
 }
 
 /*Down Button*/
-@media all and (max-width: 767px) {
-  #inicialScrollPanel{
-    display: none;
-  }
-}
 
 #inicialScrollPanel{
   height: 20%;
@@ -120,6 +115,7 @@ body {
   background-color: #D3C7A2;
   width: 100%;
   height: 100%;
+  padding-bottom: 5%;
 }
 
 #aboutMeTitle{
@@ -140,4 +136,46 @@ body {
 }
 
 #aboutMeImg{
+  padding-top: 15%;
+}
+
+#aboutMePara{
+}
+
+#aboutMePara .title{
+  font-size: 3vw;
+  font-family: 'Bitter', serif;
+  color: #10475D;
+}
+
+#aboutMePara .para{
+  padding-top: 5%;
+  font-size: 1.5vw;
+}
+
+#aboutMeDetails .title{
+  font-size: 3vw;
+  font-family: 'Bitter', serif;
+  color: #10475D;
+}
+
+#aboutMeDetails .details{
+  padding-top: 7.5%;
+  padding-left: 5%;
+  font-size: 1.5vw;
+}
+
+#aboutMeDetails .details .tag{
+  font-weight: bold;
+}
+
+#aboutMeDetails .details .info{
+  padding-bottom: 7.5%;
+}
+
+#aboutMeInfo{
+  padding-top: 12.5%;
+  height: 100%;
+  font-size: 1.5vw;
+
 }

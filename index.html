@@ -7,6 +7,7 @@
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
   <script type="text/javascript" src="js-file.js"></script>
 
   <link rel="stylesheet" type="text/css" href="welcome.css">
@@ -33,7 +34,7 @@
           </div>
         </div>
       </div>
-      <div id="inicialScrollPanel" >
+      <div id="inicialScrollPanel" class="d-none d-lg-block"  >
         <div id="inicialButton" onclick="scrollToPanelAboutMe()">
           <div id="arrow-down">
             <div class="glyphicon glyphicon-chevron-down"></div>
@@ -43,7 +44,7 @@
     </div>
   </div>
   <!-- Panel AboutMe -->
-  <div id="panelAboutMe" style="height: 100vh;">
+  <div id="panelAboutMe">
     <div class="container" id ="containerProfile">
       <div class="row">
         <div class="col-sm-12 mx-auto">
@@ -52,12 +53,54 @@
           </div>
         </div>
       </div>
-      <div id="aboutMeFila2" class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4 text-center">
+      <div id="aboutMeFila2" class="row justify-content-center">
+        <div class="col-md-3">
+          <div id="aboutMePara">
+            <div class="title">
+              Bio
+            </div>
+            <div class="para">
+              Hello World My asd asdakjdsnasjd asdjknas asdjaksd asdasdj
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 text-center">
           <img id="aboutMeImg" class="img-fluid" src="imgs/me.png" alt="Andres Varon" width="246" height="246">
         </div>
-        <div class="col-md-4"></div>
+        <div class="col-md-3">
+          <div id="aboutMeDetails">
+            <div class="title text-center">
+              Details
+            </div>
+            <div class="details">
+              <div class="tag">
+                Name:
+              </div>
+              <div class="info" id="detailsName">
+                Andres Felipe Varon Maya
+              </div>
+              <div class="tag">
+                Age:
+              </div>
+              <div class="info" id="detailsAge">
+                23 years
+              </div>
+              <div class="tag">
+                Location:
+              </div>
+              <div class="info" id="detailsLocation">
+                Bogotá, Colombia
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="aboutMeFila3" class="row justify-content-center">
+         <div class="col-md-6">
+            <div id="aboutMeInfo" class="text-center">
+              Hello World
+            </div>
+         </div>
       </div>
     </div>
   </div>
