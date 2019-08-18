@@ -16,6 +16,6 @@ function show(){
     welcome.innerHTML = "Welcome to my Website";
 }
 
-function scrollToPanelInfo(){
-  document.getElementById("panelInfo").scrollIntoView();
+function scrollToPanelAboutMe(){
+  document.getElementById("panelAboutMe").scrollIntoView();
 }

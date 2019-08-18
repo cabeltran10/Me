@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <script type="text/javascript" src="js-file.js"></script>
 
   <link rel="stylesheet" type="text/css" href="welcome.css">
@@ -13,40 +14,51 @@
 </head>
 <body>
   <img id="bkgrnd" src="imgs/bkgrnd.jpg">
-  <div id="containerInicial">
-    <div  id="panelInicial" >
-      <div class="container" id ="containerNombre">
-        <div class="row" id="filaNombre">
-          <div class="col-sm-12 mx-auto my-auto">
-            <div class="container-flex noselect">
-              <div class="slidingVertical" >
-                <span>Hi</span>
-                <span>Hola</span>
-                <span>Oi</span>
-                <span>Salut</span>
-              </div>
-              <div id="txtNombre">
-                <span id="comma"  onclick="hide(); return false" >,</span> I am Andres Varon
-              </div>
-              <div id="txtWelcome" class="text-center">Welcome to my Website</div>
+
+  <div  id="panelInicial" >
+    <div class="container" id ="containerNombre">
+      <div class="row" id="filaNombre">
+        <div class="col-sm-12 mx-auto my-auto">
+          <div class="container-flex noselect">
+            <div class="slidingVertical" >
+              <span>Hi</span>
+              <span>Hola</span>
+              <span>Oi</span>
+              <span>Salut</span>
             </div>
+            <div id="txtNombre">
+              <span id="comma"  onclick="hide(); return false" >,</span> I am Andres Varon
+            </div>
+            <div id="txtWelcome" class="text-center">Welcome to my Website</div>
           </div>
         </div>
-        <div id="inicialScrollPanel" >
-          <div id="inicialButton" onclick="scrollToPanelInfo()">
-            <div id="arrow-down">
-              <div class="glyphicon glyphicon-chevron-down"></div>
-            </div>
+      </div>
+      <div id="inicialScrollPanel" >
+        <div id="inicialButton" onclick="scrollToPanelAboutMe()">
+          <div id="arrow-down">
+            <div class="glyphicon glyphicon-chevron-down"></div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-  <div id="panelInfo" style="height: 100vh;">
-    <div class="container">
-     <h1>INFO</h1>
-
-   </div>
- </div>
+  <!-- Panel AboutMe -->
+  <div id="panelAboutMe" style="height: 100vh;">
+    <div class="container" id ="containerProfile">
+      <div class="row">
+        <div class="col-sm-12 mx-auto">
+          <div id="aboutMeTitle" class="text-center" >About Me
+            <hr id="hrAboutMeTitle">
+          </div>
+        </div>
+      </div>
+      <div id="aboutMeFila2" class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 text-center">
+          <img id="aboutMeImg" class="img-fluid" src="imgs/me.png" alt="Andres Varon" width="246" height="246">
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+  </div>
 </body>

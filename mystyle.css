@@ -1,3 +1,38 @@
+html {
+  background: url("imgs/bkgrnd.jpg") no-repeat center center fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Chome - Opera */
+}
+
+#bkgrnd {
+  display: none;
+}
+
+body {
+  background: transparent;
+}
+
+#panelInicial {
+  background-color: rgba( 16, 71, 93,0.8);
+  height: 100vh;
+  width: 100%;
+  padding: 0px;
+}
+
+/*Nombre - Welcome*/
+
 @media all and (min-width: 1501px) {
   #txtNombre, .slidingVertical span {
     font-size: 100px;
@@ -14,55 +49,6 @@
     font-size: 4vw;
   }
 }
-@media all and (max-width: 767px) {
-  #inicialScrollPanel{
-    display: none;
-  }
-}
-
-html {
-  background: url("imgs/bkgrnd.jpg") no-repeat center center fixed ;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  scroll-behavior: smooth;
-}
-
-.noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently                                  supported by Chrome and Opera */
-}
-
-#bkgrnd {
-  display: none;
-}
-
-body {
-  background: transparent;
-}
-
-#containerInicial {
- background-color: transparent;
- padding: 0px;
-}
-
-#panelInicial {
-  background-color: rgba( 16, 71, 93,0.8);
-  height: 100vh;
-  width: 100%;
-  padding: 0px;
-}
-
-#panelInfo {
-  background-color: white ;
-  width: 100%;
-  height: 100%;
-}
 
 #containerNombre{
   padding: 0px;
@@ -76,7 +62,7 @@ body {
   width: 20%;
 }
 
-#txtNombre, .slidingVertical span,#txtWelcome {
+#txtNombre, .slidingVertical span, #txtWelcome {
  color: white;
  font-family: 'Lato', sans-serif;
 }
@@ -91,6 +77,13 @@ body {
 #txtWelcome{
   padding-top: 2.5%;
   width: 95%;
+}
+
+/*Down Button*/
+@media all and (max-width: 767px) {
+  #inicialScrollPanel{
+    display: none;
+  }
 }
 
 #inicialScrollPanel{
@@ -120,3 +113,31 @@ body {
   animation: jump 1.5s infinite;
 }
 @keyframes jump { 0% { top: 0; } 50% { top: 10%; } 100% { top: 0; } }
+
+
+/* About ME */
+#panelAboutMe {
+  background-color: #D3C7A2;
+  width: 100%;
+  height: 100%;
+}
+
+#aboutMeTitle{
+  font-family: 'Roboto Slab', serif;
+  font-size: 5vw;
+  padding-top: 5%;
+  color: #505050;
+}
+
+#hrAboutMeTitle {
+  background-color: #10475D;
+  width: 50%;
+  height: 3px;
+  border: 0;
+}
+#aboutMeFila2{
+  padding-top: 5%;
+}
+
+#aboutMeImg{
+}
