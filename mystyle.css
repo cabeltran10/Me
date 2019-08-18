@@ -96,7 +96,7 @@ body {
   right: 0;
   background-color: rgba(80,80,80,0.8);
 }
-.glyphicon {
+#arrow-down .glyphicon {
   color: white;
   font-size: 40px;
 }
@@ -123,6 +123,15 @@ body {
   font-size: 5vw;
   padding-top: 5%;
   color: #505050;
+}
+
+#aboutMeQuote{
+ font-size: 1.5vw;
+ color: #10475D;
+ padding-left: 20%;
+ padding-right: 20%;
+ padding-top: 0.5%;
+ padding-bottom: 0.5%;
 }
 
 #hrAboutMeTitle {
@@ -177,5 +186,86 @@ body {
   padding-top: 12.5%;
   height: 100%;
   font-size: 1.5vw;
+  font-family: 'Bitter', serif;
+}
 
+/*Education*/
+#panelEducation {
+  background-color: #ffff;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5%;
+}
+
+#educationTitle{
+  font-family: 'Roboto Slab', serif;
+  font-size: 5vw;
+  padding-top: 5%;
+  color: #10475D;
+}
+
+#educationQuote{
+ font-size: 1.5vw;
+ color: #505050;
+ padding-left: 20%;
+ padding-right: 20%;
+ padding-top: 0.5%;
+ padding-bottom: 0.5%;
+}
+
+#hrEducationTitle {
+  background-color: #505050;
+  width: 65%;
+  height: 2px;
+  border: 0;
+}
+
+.educationInfo{
+  padding-top: 5%;
+  padding-bottom: 2.5%
+}
+
+.educationLeft{
+  padding-left: 7.5%;
+}
+
+.educationName{
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #10475D;
+}
+.educationTime{
+padding-top: 2%;
+  font-size: 1.1vw;
+  font-family: 'Roboto Slab', serif;
+}
+.educationRight{
+  padding-left: 2%;
+}
+.educationRight .title{
+  font-size: 1.3vw;
+  font-weight: bold;
+  color: #10475D;
+}
+
+.educationRight .info{
+  padding-top: 2.5%;
+  padding-bottom: 1%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2vw;
+}
+
+.educationRight .location .glyphicon {
+  font-size: 20px;
+}
+.educationRight .location{
+  font-size: 1.2vw;
+  color: #10475D;
+  cursor: pointer;
+}
+
+.eduHr{
+  width: 85%;
+  height: 1px;
+  background-color: #D3D3D3;
 }
