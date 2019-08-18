@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Andres Varon</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <script type="text/javascript" src="js-file.js"></script>
 
@@ -17,7 +18,7 @@
       <div class="container" id ="containerNombre">
         <div class="row" id="filaNombre">
           <div class="col-sm-12 mx-auto my-auto">
-            <div class="container-flex">
+            <div class="container-flex noselect">
               <div class="slidingVertical" >
                 <span>Hi</span>
                 <span>Hola</span>
@@ -31,18 +32,21 @@
             </div>
           </div>
         </div>
+        <div id="inicialScrollPanel" >
+          <div id="inicialButton" onclick="scrollToPanelInfo()">
+            <div id="arrow-down">
+              <div class="glyphicon glyphicon-chevron-down"></div>
+            </div>
+          </div>
+        </div>
       </div>
-
     </div>
   </div>
 
-  <div id="panelInfo">
+  <div id="panelInfo" style="height: 100vh;">
     <div class="container">
      <h1>INFO</h1>
 
    </div>
  </div>
-
-
-
 </body>
