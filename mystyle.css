@@ -189,83 +189,125 @@ body {
   font-family: 'Bitter', serif;
 }
 
-/*Education*/
-#panelEducation {
-  background-color: #ffff;
+/*ListPanel*/
+.panelList {
   width: 100%;
   height: 100%;
   padding-bottom: 5%;
 }
 
-#educationTitle{
+.listTitle{
   font-family: 'Roboto Slab', serif;
   font-size: 5vw;
   padding-top: 5%;
-  color: #10475D;
 }
 
-#educationQuote{
+.listQuote{
  font-size: 1.5vw;
- color: #505050;
  padding-left: 20%;
  padding-right: 20%;
  padding-top: 0.5%;
  padding-bottom: 0.5%;
 }
 
-#hrEducationTitle {
-  background-color: #505050;
+.hrListTitle {
   width: 65%;
-  height: 2px;
+  height: 3px;
   border: 0;
 }
 
-.educationInfo{
+.listInfo{
   padding-top: 5%;
   padding-bottom: 2.5%
 }
 
-.educationLeft{
+.listLeft{
   padding-left: 7.5%;
 }
 
-.educationName{
+.listName{
   font-size: 1.5vw;
   font-weight: bold;
-  color: #10475D;
 }
-.educationTime{
-padding-top: 2%;
+
+.listTime{
+  padding-top: 2%;
   font-size: 1.1vw;
   font-family: 'Roboto Slab', serif;
 }
-.educationRight{
+
+.listRight{
   padding-left: 2%;
 }
-.educationRight .title{
+
+.listRight .title{
   font-size: 1.3vw;
   font-weight: bold;
-  color: #10475D;
 }
 
-.educationRight .info{
+.listRight .info{
   padding-top: 2.5%;
   padding-bottom: 1%;
   font-family: 'Roboto Slab', serif;
   font-size: 1.2vw;
 }
 
-.educationRight .location .glyphicon {
+.listRight .location .glyphicon {
   font-size: 20px;
 }
-.educationRight .location{
+
+.listRight .location{
   font-size: 1.2vw;
-  color: #10475D;
   cursor: pointer;
 }
 
-.eduHr{
+
+.listHr{
   width: 85%;
-  height: 1px;
+  height: 2px;
+  border: 0;
+}
+
+/*Education*/
+
+.eduHr{
   background-color: #D3D3D3;
+}
+
+#panelEducation{
+  background-color: #ffff;
+}
+
+#educationTitle, .educationName, .educationRight .title, .educationRight .location{
+ color: #10475D;
+}
+
+#educationQuote{
+  color: #505050;
+}
+
+#hrEducationTitle {
+ background-color: #505050;
+}
+
+/*Experience*/
+
+#panelExperience{
+  background-color: #D3C7A2;
+}
+
+#experienceTitle, .experienceName, .experienceRight .title, .experienceRight .location{
+ color: #505050;
+}
+
+#experienceQuote, .experienceRight .info, .experienceTime{
+  color: #10475D;
+}
+
+#hrExperienceTitle {
+  background-color: #10475D;
+}
+
+.expHr{
+  background-color: #6C5640;
 }
