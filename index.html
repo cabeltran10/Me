@@ -2,20 +2,26 @@
  <html lang="en">
  <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Andres Varon's Website">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Andres Felipe Varon Maya">
+
   <title>Andres Varon</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <!--Fonts  -->
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
-  <script type="text/javascript" src="js-file.js"></script>
-  <script type="text/javascript" src="skills.js"></script>
-
+  <!-- JavaScript Files -->
+  <script src="js-file.js"></script>
+  <script src="skills.js"></script>
+  <!-- Styles -->
   <link rel="stylesheet" type="text/css" href="welcome.css">
   <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
-  <img id="bkgrnd" src="imgs/bkgrnd.jpg">
+  <img id="bkgrnd" src="imgs/bkgrnd.jpg" alt="background">
 
   <div  id="panelInicial" >
     <div class="container" id ="containerNombre">
@@ -327,19 +333,43 @@
         <div class="skillsList container-fluid">
           <div class="skill row">
             <div class="title col-sm-6">English</div>
-            <div class="stars col-sm-6" stars="5"></div>
+            <div class="stars col-sm-6">
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star filled"></span>
+            </div>
           </div>
           <div class="skill row">
             <div class="title col-sm-6">Español</div>
-            <div class="stars col-sm-6" stars="5"></div>
+            <div class="stars col-sm-6">
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star filled"></span>
+            </div>
           </div>
           <div class="skill row">
             <div class="title col-sm-6">Portugués</div>
-            <div class="stars col-sm-6" stars="5"></div>
+            <div class="stars col-sm-6">
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star filled"></span>
+            </div>
           </div>
           <div class="skill row">
             <div class="title col-sm-6">Français</div>
-            <div class="stars col-sm-6" stars="3"></div>
+            <div class="stars col-sm-6">
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star filled"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </div>
           </div>
         </div>
       </div>
@@ -352,7 +382,18 @@
         </div>
       </div>
     </div>
+    <!-- Esta fila se llena automaticamente -->
     <div id="skillsRow" class="row justify-content-center"></div>
   </div>
 </div>
+<div  id="panelContacto" >
+  <div class="container" id ="containerNombre">
+    <div class="row" id="filaNombre">
+      <div class="col-sm-12 mx-auto my-auto">
+
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>

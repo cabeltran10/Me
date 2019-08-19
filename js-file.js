@@ -1,3 +1,4 @@
+"use strict";
 let comma = 0;
 function hide(){
   comma++;
@@ -19,3 +20,13 @@ function show(){
 function scrollToPanelAboutMe(){
   document.getElementById("panelAboutMe").scrollIntoView();
 }
+
+//Funcion para quitar warnings.
+function act(){
+  if(comma>0){
+    hide();
+    show();
+    scrollToPanelAboutMe();
+  }
+}
+act();

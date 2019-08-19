@@ -317,7 +317,7 @@ body {
   background-color: #ffff;
   width: 100%;
   height: 100%;
-  padding-bottom: 5%;
+  padding-bottom: 7.5%;
 }
 
 #skillsTitle{
@@ -384,7 +384,7 @@ body {
 
 .skill .glyphicon{
   font-size: 2vw;
-  color: #505050;
+  color: #868686;
 }
 .skill .filled{
   color: #10475D;
@@ -405,4 +405,13 @@ body {
   font-size: 3vw;
   color: #10475D;
   width: 50%;
+}
+
+/*Contacto*/
+
+#panelContacto {
+  background-color: rgba( 16, 71, 93,0.8);
+  height: 100vh;
+  width: 100%;
+  padding: 0px;
 }

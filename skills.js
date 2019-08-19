@@ -1,4 +1,4 @@
-
+"use strict";
 // Animation by: Gregory Schier
 var TxtRotate = function(el, toRotate,period) {
   this.toRotate = toRotate;
@@ -41,33 +41,28 @@ TxtRotate.prototype.tick = function() {
   }, delta);
 };
 
+//FIN DE ANIMACION
+
 window.onload = function() {
+  // Carga Carrousel
   let list = [ "Skills", "Abilities", "Competences", "Proficiencies"];
   let elem = document.getElementById("skillsTitleCar");
   new TxtRotate(elem, list, 2000);
 
-  let elements = document.getElementsByClassName("stars");
-  for(let i = 0; i <elements.length; i++){
-    let num = parseInt(elements[i].getAttribute("stars"));
-    let html = "";
-    for (let j = 0; j < num; j++ ) {
-      html += "<span class=\"glyphicon glyphicon-star filled\"></span>";
-    }
-    for (let j = 5-num; j > 0; j-- ) {
-      html += "<span class=\"glyphicon glyphicon-star\"></span>";
-    }
-    elements[i].innerHTML = html;
-  }
+  // Carga los otros skills
   let skillsElement = document.getElementById("skillsRow");
   let html = "";
   let client = new HttpClient();
+  //Genera la peticion al servidor
   client.get("https://script.google.com/macros/s/AKfycbwOEf1CwXoFC3nMUKMNNme4jLqp73OZdRKfUy9luQwKRyKng3Q/exec", function(response) {
     let resp = JSON.parse(response);
+    //Lo separa por la mitad
     let skills = resp.skills;
     let skills2 = [];
     for (let i = 0; i < parseInt(skills.length/2); i++) {
       skills2.push(skills.pop());
     }
+    //Agrega el lado izquierdo
     if (skills.length>0) {
       html += "<div class=\"col-md-5\"><div class=\"skillsList container-fluid\">";
       for (let i = 0; i < skills.length; i++) {
@@ -83,6 +78,7 @@ window.onload = function() {
       }
       html += "</div></div>";
     }
+    //Agrega el lado derecho
     if (skills2.length >0) {
       html += "<div class=\"col-md-5\"><div class=\"skillsList container-fluid\">";
       for (let i = 0; i < skills2.length; i++) {
@@ -102,6 +98,7 @@ window.onload = function() {
   });
 };
 
+//Configuracion del cliente Http
 var HttpClient = function() {
   this.get = function(aUrl, aCallback) {
     var anHttpRequest = new XMLHttpRequest();
