@@ -64,10 +64,10 @@ window.onload = function() {
     }
     //Agrega el lado izquierdo
     if (skills.length>0) {
-      html += "<div class=\"col-md-5\"><div class=\"skillsList container-fluid\">";
+      html += "<div class=\"col-lg-5\"><div class=\"skillsList container-fluid\">";
       for (let i = 0; i < skills.length; i++) {
         let num = parseInt(skills[i].value);
-        html+= "<div class=\"skill row\"><div class=\"title col-sm-6\">"+skills[i].name+"</div><div class=\"stars col-sm-6\" >";
+        html+= "<div class=\"skill row\"><div class=\"title col-md-6\">"+skills[i].name+"</div><div class=\"stars col-sm-6\" >";
         for (let j = 0; j < num; j++ ) {
           html += "<span class=\"glyphicon glyphicon-star filled\"></span>";
         }
@@ -80,10 +80,10 @@ window.onload = function() {
     }
     //Agrega el lado derecho
     if (skills2.length >0) {
-      html += "<div class=\"col-md-5\"><div class=\"skillsList container-fluid\">";
+      html += "<div class=\"col-lg-5\"><div class=\"skillsList container-fluid\">";
       for (let i = 0; i < skills2.length; i++) {
         let num = parseInt(skills2[i].value);
-        html+= "<div class=\"skill row\"><div class=\"title col-sm-6\">"+skills2[i].name+"</div><div class=\"stars col-sm-6\" >";
+        html+= "<div class=\"skill row\"><div class=\"title col-md-6\">"+skills2[i].name+"</div><div class=\"stars col-sm-6\" >";
         for (let j = 0; j < num; j++ ) {
           html += "<span class=\"glyphicon glyphicon-star filled\"></span>";
         }
