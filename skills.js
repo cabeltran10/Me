@@ -59,7 +59,7 @@ window.onload = function() {
     //Lo separa por la mitad
     let skills = resp.skills;
     let skills2 = [];
-    for (let i = 0; i < parseInt(skills.length/2); i++) {
+    for (let i = 0; i < parseInt(Math.ceil(skills.length/2)); i++) {
       skills2.push(skills.pop());
     }
     //Agrega el lado izquierdo
