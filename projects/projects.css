@@ -1,0 +1,97 @@
+
+#panelProjects {
+  background-color: #D3C7A2;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+#projectsTitle{
+  font-family: 'Roboto Slab', serif;
+  font-size: 5vw;
+  padding-top: 5%;
+  color: #505050;
+}
+
+#projectsQuote{
+  font-size: 1.5vw;
+  color: #10475D;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+#hrProjectsTitle {
+  background-color: #10475D;
+  width: 50%;
+  height: 3px;
+  border: 0;
+}
+
+
+.listInfo{
+  padding-top: 5%;
+  padding-bottom: 2.5%
+}
+
+.listLeft{
+  padding-left: 7.5%;
+}
+
+.listName{
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.listTime{
+  padding-top: 2%;
+  font-size: 1.1vw;
+  font-family: 'Roboto Slab', serif;
+}
+
+.listRight{
+  padding-left: 2%;
+}
+
+.listRight .title{
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+.listRight .info{
+  padding-top: 2.5%;
+  padding-bottom: 1%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2vw;
+}
+
+.listRight .location .glyphicon {
+  font-size: 20px;
+}
+
+.listRight .location{
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+
+.listHr{
+  width: 85%;
+  height: 2px;
+  border: 0;
+}
+
+#experienceTitle, .experienceName, .experienceRight .title, .experienceRight .location{
+ color: #505050;
+}
+
+#experienceQuote, .experienceRight .info, .experienceTime{
+  color: #10475D;
+}
+
+#hrExperienceTitle {
+  background-color: #10475D;
+}
+
+.expHr{
+  background-color: #6C5640;
+}
