@@ -63,8 +63,8 @@ body {
 }
 
 #txtNombre, .slidingVertical span, #txtWelcome {
- color: white;
- font-family: 'Lato', sans-serif;
+  color: white;
+  font-family: 'Lato', sans-serif;
 }
 
 #txtNombre {
@@ -126,12 +126,12 @@ body {
 }
 
 #aboutMeQuote{
- font-size: 1.5vw;
- color: #10475D;
- padding-left: 20%;
- padding-right: 20%;
- padding-top: 0.5%;
- padding-bottom: 0.5%;
+  font-size: 1.5vw;
+  color: #10475D;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
 }
 
 #hrAboutMeTitle {
@@ -203,11 +203,11 @@ body {
 }
 
 .listQuote{
- font-size: 1.5vw;
- padding-left: 20%;
- padding-right: 20%;
- padding-top: 0.5%;
- padding-bottom: 0.5%;
+  font-size: 1.5vw;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
 }
 
 .hrListTitle {
@@ -279,7 +279,7 @@ body {
 }
 
 #educationTitle, .educationName, .educationRight .title, .educationRight .location{
- color: #10475D;
+  color: #10475D;
 }
 
 #educationQuote{
@@ -287,7 +287,7 @@ body {
 }
 
 #hrEducationTitle {
- background-color: #505050;
+  background-color: #505050;
 }
 
 /*Experience*/
@@ -310,4 +310,99 @@ body {
 
 .expHr{
   background-color: #6C5640;
+}
+/* Skills */
+
+#panelSkills {
+  background-color: #ffff;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5%;
+}
+
+#skillsTitle{
+  font-family: 'Roboto Slab', serif;
+  font-size: 5vw;
+  padding-top: 5%;
+  color: #10475D;
+}
+
+#skillsQuote{
+  font-size: 2vw;
+  color: #505050;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+}
+
+#hrSkillsTitle {
+  background-color: #505050;
+  width: 50%;
+  height: 3px;
+  border: 0;
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
+#languagesRow{
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+#languagesTitle{
+  font-size: 2.5vw;
+  color: #10475D;
+  width: 50%;
+}
+.skillsList{
+  padding-top: 5%;
+  font-size: 2vw;
+}
+.skillsList .title{
+  padding-right: 1%;
+}
+
+.skillsList .stars{
+  text-align: right;
+}
+
+.skill{
+  margin-top: 3%;
+  border-radius: 10px;
+  padding: 0;
+  padding-left: 0;
+}
+.skill:hover{
+  background-color: #D3D3D3;
+}
+.skill:hover .stars .glyphicon{
+  margin-left: 2px;
+}
+
+.skill .glyphicon{
+  font-size: 2vw;
+  color: #505050;
+}
+.skill .filled{
+  color: #10475D;
+}
+.skillsHr{
+  height: 2px;
+  background-color: #10475D;
+  border: 0;
+  width: 70%;
+}
+
+#skillsSub{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#skillsSubTitle{
+  font-size: 3vw;
+  color: #10475D;
+  width: 50%;
 }

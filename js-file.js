@@ -11,9 +11,9 @@ function hide(){
 function show(){
   comma = 0;
   let name = document.getElementById("txtNombre");
-    name.innerHTML = "<span id=\"comma\"  onclick=\"hide(); return false\" >,</span> I am Andres Varon";
+  name.innerHTML = "<span id=\"comma\"  onclick=\"hide(); return false\" >,</span> I am Andres Varon";
   let welcome = document.getElementById("txtWelcome");
-    welcome.innerHTML = "Welcome to my Website";
+  welcome.innerHTML = "Welcome to my Website";
 }
 
 function scrollToPanelAboutMe(){
