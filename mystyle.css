@@ -167,8 +167,7 @@ body {
   padding-top: 15%;
 }
 
-#aboutMePara{
-}
+/* Si no se va a usar este id podria eliminarse */
 
 #aboutMePara .title{
   font-size: 3vw;
